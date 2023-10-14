@@ -1,5 +1,5 @@
 import Buttons from "./Buttons"
-import "../../styles/ContainerButtons.scss"
+import "../../styles/containerButtons.scss"
 import { useDispatch } from "react-redux"
 import { agregarNumero,returnInitialState,operation } from "../../features/math/mathSlice"
 
