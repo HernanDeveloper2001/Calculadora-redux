@@ -1,0 +1,20 @@
+$background-buttons-numbers: rgb(77, 77, 77);
+$background-buttons-equations: rgb(102, 102, 102);
+$font-size-buttons: 20px;
+$font-family-buttons:'Share Tech Mono', monospace;
+@font-face {
+  font-family: "digital";
+  src: url("../fonts/digital.ttf");
+}
+
+
+$color: rgb(255, 255, 255);
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}

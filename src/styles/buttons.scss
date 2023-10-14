@@ -1,0 +1,43 @@
+@import "_global.scss";
+
+@each $width in jumbo {
+  ##{$width} { width: 160px}
+}
+
+@each $color in button {
+  .#{$color}-number {
+    background: $background-buttons-numbers
+  }
+}
+
+@each $color in button {
+  .#{$color}-equals {
+    background: $background-buttons-equations
+  }
+}
+
+button{
+  width: 80px;
+  height: 65px;
+  font-family: $font-family-buttons;
+  font-size: $font-size-buttons;
+  border: none;
+  z-index: 2;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+button:hover {
+  border: 1px solid grey;
+  color: #000;
+}
+.button-AC {
+  background-color: rgb(172, 57, 57);
+}
+
+.button-igual {
+  background-color: rgb(0, 68, 102);
+  height: 130px;
+  bottom: 0;
+  position: absolute;
+}
